@@ -1,0 +1,252 @@
+INFO flwr 2023-11-06 12:02:59,359 | grpc.py:49 | Opened insecure gRPC connection (no certificates were passed)
+DEBUG flwr 2023-11-06 12:02:59,360 | connection.py:42 | ChannelConnectivity.IDLE
+DEBUG flwr 2023-11-06 12:02:59,362 | connection.py:42 | ChannelConnectivity.CONNECTING
+DEBUG flwr 2023-11-06 12:02:59,362 | connection.py:42 | ChannelConnectivity.READY
+===================
+['PULSE_[68.5, 77.5)', 'PULSE_[77.5, 85.5)', 'PULSE_[85.5, 98.0)', 'PULSE_[98.0, 345.0)', 'BPSYSTOLIC_[113.5, 126.0)', 'BPSYSTOLIC_[126.0, 137.0)', 'BPSYSTOLIC_[137.0, 153.0)', 'BPSYSTOLIC_[153.0, 375.0)']
+===================
+>>>>>>>>>>>>> setting initial parameters
+[[0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0.]]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[0., 0., 0., 0., 0., 0., 0., 0.],
+       [0., 0., 0., 0., 0., 0., 0., 0.]]), array([0., 0.])]
+Training finished for round 1
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.72508099, -0.72550857, -0.43192263,  0.83117487, -0.5330369 ,
+        -0.93288093, -1.15740929, -1.08586386]]), array([-3.68311358])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.72508099, -0.72550857, -0.43192263,  0.83117487, -0.5330369 ,
+        -0.93288093, -1.15740929, -1.08586386]]), array([-3.68311358])]
+Training finished for round 2
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.11192587, -0.0818982 ,  0.1951011 ,  1.1959643 , -0.67421498,
+        -1.086737  , -1.32995271, -1.20960788]]), array([-4.007823])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.11192587, -0.0818982 ,  0.1951011 ,  1.1959643 , -0.67421498,
+        -1.086737  , -1.32995271, -1.20960788]]), array([-4.007823])]
+Training finished for round 3
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10982559, -0.08284172,  0.19514796,  1.19645705, -0.67333742,
+        -1.08549475, -1.32965468, -1.20920462]]), array([-4.00881969])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10982559, -0.08284172,  0.19514796,  1.19645705, -0.67333742,
+        -1.08549475, -1.32965468, -1.20920462]]), array([-4.00881969])]
+Training finished for round 4
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983336, -0.08282056,  0.19511108,  1.19646278, -0.67338739,
+        -1.08551645, -1.32966002, -1.20923656]]), array([-4.00880492])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983336, -0.08282056,  0.19511108,  1.19646278, -0.67338739,
+        -1.08551645, -1.32966002, -1.20923656]]), array([-4.00880492])]
+Training finished for round 5
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.1098339 , -0.08281913,  0.19510893,  1.19646331, -0.67338776,
+        -1.08551429, -1.32965643, -1.20923562]]), array([-4.00880606])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.1098339 , -0.08281913,  0.19510893,  1.19646331, -0.67338776,
+        -1.08551429, -1.32965643, -1.20923562]]), array([-4.00880606])]
+Training finished for round 6
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983394, -0.08281907,  0.1951088 ,  1.19646333, -0.67338791,
+        -1.08551433, -1.32965641, -1.20923571]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983394, -0.08281907,  0.1951088 ,  1.19646333, -0.67338791,
+        -1.08551433, -1.32965641, -1.20923571]]), array([-4.00880603])]
+Training finished for round 7
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 8
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 9
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 10
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 11
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 12
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 13
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 14
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 15
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 16
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 17
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 18
+DEBUG flwr 2023-11-06 12:03:01,899 | connection.py:139 | gRPC channel closed
+INFO flwr 2023-11-06 12:03:01,899 | app.py:215 | Disconnect and shut down
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 19
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 20
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 21
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 22
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 23
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 24
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 25
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 26
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 27
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 28
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 29
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+>>>>>>>>>>>>> printing intermediate parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]
+Training finished for round 30
+>>>>>>>>>>>>> evaluating on client-side
+>>>>>>>>>>>>> printing final parameters
+[array([[-0.10983395, -0.08281907,  0.19510879,  1.19646333, -0.67338791,
+        -1.08551432, -1.3296564 , -1.2092357 ]]), array([-4.00880603])]

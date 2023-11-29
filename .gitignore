@@ -1,0 +1,8 @@
+.DS_Store
+.idea/
+FedScore/__pycache__
+AutoScore/__pycache__
+Flower/__pycache__
+FedScore/local.py
+output/client01_data/design_matrix*.csv
+output/client02_data/design_matrix*.csv
