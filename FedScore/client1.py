@@ -12,11 +12,9 @@ if __name__ == '__main__':
     print(msg)
     if msg == 'READY':
         # try:
-            data1 = pd.read_csv("../../../Documents/nBox/FedScore-python/MIMIC_all.csv")
-            # data1 = pd.read_csv('../output/client01_data/sample1.csv')
-            # data1 = data1.rename({'Mortality_inpatient': 'label'}, axis=1)
-            # data1 = data1.iloc[:, 1:]
-            # data1 = pd.read_csv("D:/nbox/W_ED_FL/FedScore-python/MIMIC_all.csv")
+            data1 = pd.read_csv('../output/client01_data/sample1.csv')
+            data1 = data1.rename({'Mortality_inpatient': 'label'}, axis=1)
+            data1 = data1.iloc[:, 1:]
             data1 = utils.convert_categorical_vars(data1)
             train_set1, validation_set1, test_set1 = utils.split_data(data1, (0.7, 0.1, 0.2),
                                                                       cross_validation=False, strat_by_label=False)

@@ -12,13 +12,9 @@ if __name__ == '__main__':
     print(msg)
     if msg == 'READY':
         # try:
-        #     data2 = pd.read_csv('../output/client02_data/sample2.csv')
-        #     data2 = data2.rename({'Mortality_inpatient': 'label'}, axis=1)
-            # data2 = data2.iloc[:, 1:]
-            data2 = pd.read_csv("../../../Documents/nBox/FedScore-python/SGH_all.csv")
-            # data2 = pd.read_csv("D:/nbox/W_ED_FL/FedScore-python/SGH_all.csv")
-            
-            # data2['GENDER'].replace({'FEMALE': 'F', 'MALE': 'M'}, inplace=True)
+            data2 = pd.read_csv('../output/client02_data/sample2.csv')
+            data2 = data2.rename({'Mortality_inpatient': 'label'}, axis=1)
+            data2 = data2.iloc[:, 1:]
             data2 = utils.convert_categorical_vars(data2)
             train_set2, validation_set2, test_set2 = utils.split_data(data2, (0.7, 0.1, 0.2),
                                                                       cross_validation=False, strat_by_label=False)
