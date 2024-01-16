@@ -1,7 +1,7 @@
 from typing import Tuple, Union, List
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-import os, sys
+import os
 import pandas as pd
 
 XY = Tuple[np.ndarray, np.ndarray]
@@ -23,11 +23,6 @@ def get_dat_csv(file_name, directory, variable_list):
     y = data.loc[:, 'label']
     X = data.loc[: , X_features]
     return X, y, len(X_features)
-
-# def get_number_clients(directory):
-#     s = os.path.basename(os.path.normpath(directory)).split(".")
-#     k = int(s[-1].split("_")[1]) # number of clients
-#     return k
 
 
 def get_model_parameters(model: LogisticRegression) -> LogRegParams:

@@ -2,7 +2,6 @@ import os, sys
 import pandas as pd
 
 def extract_coefficient(path):
-    # print(path)
     dir, filename = os.path.dirname(path), os.path.basename(path)
     with open(path, 'r') as f:
         lines = f.readlines()

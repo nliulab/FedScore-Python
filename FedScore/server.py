@@ -260,5 +260,3 @@ if __name__ == "__main__":
             thread.start()
     except Exception as e:
         print('ERROR:', e)
-    # finally:
-    #     server.cleanup()
