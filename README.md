@@ -8,6 +8,8 @@ system generators. FedScore, an example of such a solution, has been demonstrate
 using artificially partitioned data. In this study, we further improve FedScore and 
 conduct empirical experiments utilizing real-world heterogeneous clinical data.
 
+![Figure 1: Overview of the FedScore algorithm](Figures/workflow.jpg)
+
 ### System requirements
 - Python 3.9
 - To install required Python packages, run
