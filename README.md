@@ -31,3 +31,4 @@ python server.py
 python client1.py
 python client2.py
 ```
+Note that the current implementation is a proof of concept with the assumption that server and clients are on the same machine. It has not been adapted or tested for real-world commercial use cases.
