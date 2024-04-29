@@ -31,4 +31,4 @@ python server.py
 python client1.py
 python client2.py
 ```
-Note that **the current implementation is a proof of concept** with the assumption that **server and clients are on the same machine**. It has not been adapted or tested for real-world commercial use cases. In addition, the implementation only supports clinical data with **binary** outcomes.
+Note that **the current implementation is a proof of concept** with the assumption that **server and clients are on the same machine**. It has not been adapted or tested for real-world commercial use cases. In addition, the implementation only supports data with **binary** outcomes.
