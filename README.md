@@ -1,7 +1,7 @@
 # FedScore-Python
 FedScore is a framework for developing scoring systems across multiple sites in a privacy-preserving way. This repo contains the Python code for the proposed method. The R implementation is available [here](https://github.com/nliulab/FedScore).
 
-See also our newly published [article](https://doi.org/10.1016/j.jbi.2023.104485) for the whole story.
+See also this [tiny paper](https://openreview.net/forum?id=c4GVRbEx1g) for the results of FedScore-Python applied to real-world heterogeneous electronic health records (EHR) datasets.
 
 ### Introduction
 Cross-institutional collaboration has gained popularity in recent years as a way to accelerate medical research and facilitate quality improvement. Federated learning (FL) can avoid data sharing by collectively training algorithms without exchanging patient-level data. However, most FL applications in medical image data use black box models from computer vision. Interpretable models, on the contrary, have fewer instances of FL applications despite their popularity in clinical research.
