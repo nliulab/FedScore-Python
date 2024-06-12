@@ -32,3 +32,8 @@ python client1.py
 python client2.py
 ```
 Note that **the current implementation is a proof of concept** with the assumption that **server and clients are on the same machine**. It has not been adapted or tested for real-world commercial use cases. In addition, the implementation only supports data with **binary** outcomes.
+
+### Supported FL Algorithms
+We implemented FedScore using [Flower framework](https://flower.ai/docs/framework/index.html), so that [all common FL algorithms supported by Flower](https://flower.ai/docs/framework/ref-api/flwr.server.strategy.html#module-flwr.server.strategy) can be adopted for FedScore. It is also feasible to [implement a custom FL strategy](https://flower.ai/docs/framework/tutorial-series-build-a-strategy-from-scratch-pytorch.html).
+
+To apply a different FL algorithm, write a script for the server and place it in the Flower directory. Then edit FedScore/server.py (line 14) to use the new FL strategy.
